@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these sorting networks, please cite this dataset."
+type: dataset
+title: "Sorting Networks"
+authors:
+  - family-names: "Pursley"
+    given-names: "Brian"
+    orcid: "https://orcid.org/0009-0004-0994-2157"
+version: "1.0.0"
+date-released: "2026-11-23"
+doi: "10.5281/zenodo.24453126"
+url: "https://github.com/brianpursley/sorting-networks"
+abstract: >-
+  A catalog of sorting networks given as JSON comparator lists, with comparator
+  counts and parallel depths. Each network has been verified using CaDiCaL and
+  the zero–one principle.
+keywords:
+  - sorting networks
+  - comparator networks
+  - data-oblivious sorting

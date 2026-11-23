@@ -1,0 +1,625 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description" width="1688" height="869" viewBox="0 0 1688 869">
+<title id="title">50-input sorting network</title>
+<desc id="description">380 comparators in 19 layers. Wires run left to right, numbered from zero at the top. Each vertical line compares the wires at its two dots.</desc>
+<rect width="1688" height="869" fill="white"/>
+<g font-family="Inter, Arial, sans-serif" fill="#182635">
+<text x="18" y="28" font-size="20" font-weight="600">50-input sorting network</text>
+<text x="18" y="50" font-size="14">380 comparators · 19 layers</text>
+<text x="65" y="77" font-size="12" text-anchor="middle">1</text>
+<text x="65" y="855" font-size="12" text-anchor="middle">1</text>
+<rect x="81" y="58" width="38" height="802" fill="#eff4f7"/>
+<text x="100" y="77" font-size="12" text-anchor="middle">2</text>
+<text x="100" y="855" font-size="12" text-anchor="middle">2</text>
+<text x="198.5" y="77" font-size="12" text-anchor="middle">3</text>
+<text x="198.5" y="855" font-size="12" text-anchor="middle">3</text>
+<rect x="278" y="58" width="148" height="802" fill="#eff4f7"/>
+<text x="352" y="77" font-size="12" text-anchor="middle">4</text>
+<text x="352" y="855" font-size="12" text-anchor="middle">4</text>
+<text x="467" y="77" font-size="12" text-anchor="middle">5</text>
+<text x="467" y="855" font-size="12" text-anchor="middle">5</text>
+<rect x="508" y="58" width="104" height="802" fill="#eff4f7"/>
+<text x="560" y="77" font-size="12" text-anchor="middle">6</text>
+<text x="560" y="855" font-size="12" text-anchor="middle">6</text>
+<text x="669.5" y="77" font-size="12" text-anchor="middle">7</text>
+<text x="669.5" y="855" font-size="12" text-anchor="middle">7</text>
+<rect x="727" y="58" width="115" height="802" fill="#eff4f7"/>
+<text x="784.5" y="77" font-size="12" text-anchor="middle">8</text>
+<text x="784.5" y="855" font-size="12" text-anchor="middle">8</text>
+<text x="888.5" y="77" font-size="12" text-anchor="middle">9</text>
+<text x="888.5" y="855" font-size="12" text-anchor="middle">9</text>
+<rect x="935" y="58" width="104" height="802" fill="#eff4f7"/>
+<text x="987" y="77" font-size="12" text-anchor="middle">10</text>
+<text x="987" y="855" font-size="12" text-anchor="middle">10</text>
+<text x="1074.5" y="77" font-size="12" text-anchor="middle">11</text>
+<text x="1074.5" y="855" font-size="12" text-anchor="middle">11</text>
+<rect x="1110" y="58" width="115" height="802" fill="#eff4f7"/>
+<text x="1167.5" y="77" font-size="12" text-anchor="middle">12</text>
+<text x="1167.5" y="855" font-size="12" text-anchor="middle">12</text>
+<text x="1266" y="77" font-size="12" text-anchor="middle">13</text>
+<text x="1266" y="855" font-size="12" text-anchor="middle">13</text>
+<rect x="1307" y="58" width="104" height="802" fill="#eff4f7"/>
+<text x="1359" y="77" font-size="12" text-anchor="middle">14</text>
+<text x="1359" y="855" font-size="12" text-anchor="middle">14</text>
+<text x="1441" y="77" font-size="12" text-anchor="middle">15</text>
+<text x="1441" y="855" font-size="12" text-anchor="middle">15</text>
+<rect x="1471" y="58" width="60" height="802" fill="#eff4f7"/>
+<text x="1501" y="77" font-size="12" text-anchor="middle">16</text>
+<text x="1501" y="855" font-size="12" text-anchor="middle">16</text>
+<text x="1550" y="77" font-size="12" text-anchor="middle">17</text>
+<text x="1550" y="855" font-size="12" text-anchor="middle">17</text>
+<rect x="1569" y="58" width="38" height="802" fill="#eff4f7"/>
+<text x="1588" y="77" font-size="12" text-anchor="middle">18</text>
+<text x="1588" y="855" font-size="12" text-anchor="middle">18</text>
+<text x="1623" y="77" font-size="12" text-anchor="middle">19</text>
+<text x="1623" y="855" font-size="12" text-anchor="middle">19</text>
+<text x="8" y="77" font-size="11">Layer</text>
+<line x1="36" x2="1652" y1="94" y2="94" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="98" font-size="11" text-anchor="middle">0</text>
+<text x="1666" y="98" font-size="11" text-anchor="middle">0</text>
+<line x1="36" x2="1652" y1="109" y2="109" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="113" font-size="11" text-anchor="middle">1</text>
+<text x="1666" y="113" font-size="11" text-anchor="middle">1</text>
+<line x1="36" x2="1652" y1="124" y2="124" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="128" font-size="11" text-anchor="middle">2</text>
+<text x="1666" y="128" font-size="11" text-anchor="middle">2</text>
+<line x1="36" x2="1652" y1="139" y2="139" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="143" font-size="11" text-anchor="middle">3</text>
+<text x="1666" y="143" font-size="11" text-anchor="middle">3</text>
+<line x1="36" x2="1652" y1="154" y2="154" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="158" font-size="11" text-anchor="middle">4</text>
+<text x="1666" y="158" font-size="11" text-anchor="middle">4</text>
+<line x1="36" x2="1652" y1="169" y2="169" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="173" font-size="11" text-anchor="middle">5</text>
+<text x="1666" y="173" font-size="11" text-anchor="middle">5</text>
+<line x1="36" x2="1652" y1="184" y2="184" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="188" font-size="11" text-anchor="middle">6</text>
+<text x="1666" y="188" font-size="11" text-anchor="middle">6</text>
+<line x1="36" x2="1652" y1="199" y2="199" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="203" font-size="11" text-anchor="middle">7</text>
+<text x="1666" y="203" font-size="11" text-anchor="middle">7</text>
+<line x1="36" x2="1652" y1="214" y2="214" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="218" font-size="11" text-anchor="middle">8</text>
+<text x="1666" y="218" font-size="11" text-anchor="middle">8</text>
+<line x1="36" x2="1652" y1="229" y2="229" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="233" font-size="11" text-anchor="middle">9</text>
+<text x="1666" y="233" font-size="11" text-anchor="middle">9</text>
+<line x1="36" x2="1652" y1="244" y2="244" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="248" font-size="11" text-anchor="middle">10</text>
+<text x="1666" y="248" font-size="11" text-anchor="middle">10</text>
+<line x1="36" x2="1652" y1="259" y2="259" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="263" font-size="11" text-anchor="middle">11</text>
+<text x="1666" y="263" font-size="11" text-anchor="middle">11</text>
+<line x1="36" x2="1652" y1="274" y2="274" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="278" font-size="11" text-anchor="middle">12</text>
+<text x="1666" y="278" font-size="11" text-anchor="middle">12</text>
+<line x1="36" x2="1652" y1="289" y2="289" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="293" font-size="11" text-anchor="middle">13</text>
+<text x="1666" y="293" font-size="11" text-anchor="middle">13</text>
+<line x1="36" x2="1652" y1="304" y2="304" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="308" font-size="11" text-anchor="middle">14</text>
+<text x="1666" y="308" font-size="11" text-anchor="middle">14</text>
+<line x1="36" x2="1652" y1="319" y2="319" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="323" font-size="11" text-anchor="middle">15</text>
+<text x="1666" y="323" font-size="11" text-anchor="middle">15</text>
+<line x1="36" x2="1652" y1="334" y2="334" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="338" font-size="11" text-anchor="middle">16</text>
+<text x="1666" y="338" font-size="11" text-anchor="middle">16</text>
+<line x1="36" x2="1652" y1="349" y2="349" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="353" font-size="11" text-anchor="middle">17</text>
+<text x="1666" y="353" font-size="11" text-anchor="middle">17</text>
+<line x1="36" x2="1652" y1="364" y2="364" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="368" font-size="11" text-anchor="middle">18</text>
+<text x="1666" y="368" font-size="11" text-anchor="middle">18</text>
+<line x1="36" x2="1652" y1="379" y2="379" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="383" font-size="11" text-anchor="middle">19</text>
+<text x="1666" y="383" font-size="11" text-anchor="middle">19</text>
+<line x1="36" x2="1652" y1="394" y2="394" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="398" font-size="11" text-anchor="middle">20</text>
+<text x="1666" y="398" font-size="11" text-anchor="middle">20</text>
+<line x1="36" x2="1652" y1="409" y2="409" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="413" font-size="11" text-anchor="middle">21</text>
+<text x="1666" y="413" font-size="11" text-anchor="middle">21</text>
+<line x1="36" x2="1652" y1="424" y2="424" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="428" font-size="11" text-anchor="middle">22</text>
+<text x="1666" y="428" font-size="11" text-anchor="middle">22</text>
+<line x1="36" x2="1652" y1="439" y2="439" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="443" font-size="11" text-anchor="middle">23</text>
+<text x="1666" y="443" font-size="11" text-anchor="middle">23</text>
+<line x1="36" x2="1652" y1="454" y2="454" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="458" font-size="11" text-anchor="middle">24</text>
+<text x="1666" y="458" font-size="11" text-anchor="middle">24</text>
+<line x1="36" x2="1652" y1="469" y2="469" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="473" font-size="11" text-anchor="middle">25</text>
+<text x="1666" y="473" font-size="11" text-anchor="middle">25</text>
+<line x1="36" x2="1652" y1="484" y2="484" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="488" font-size="11" text-anchor="middle">26</text>
+<text x="1666" y="488" font-size="11" text-anchor="middle">26</text>
+<line x1="36" x2="1652" y1="499" y2="499" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="503" font-size="11" text-anchor="middle">27</text>
+<text x="1666" y="503" font-size="11" text-anchor="middle">27</text>
+<line x1="36" x2="1652" y1="514" y2="514" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="518" font-size="11" text-anchor="middle">28</text>
+<text x="1666" y="518" font-size="11" text-anchor="middle">28</text>
+<line x1="36" x2="1652" y1="529" y2="529" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="533" font-size="11" text-anchor="middle">29</text>
+<text x="1666" y="533" font-size="11" text-anchor="middle">29</text>
+<line x1="36" x2="1652" y1="544" y2="544" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="548" font-size="11" text-anchor="middle">30</text>
+<text x="1666" y="548" font-size="11" text-anchor="middle">30</text>
+<line x1="36" x2="1652" y1="559" y2="559" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="563" font-size="11" text-anchor="middle">31</text>
+<text x="1666" y="563" font-size="11" text-anchor="middle">31</text>
+<line x1="36" x2="1652" y1="574" y2="574" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="578" font-size="11" text-anchor="middle">32</text>
+<text x="1666" y="578" font-size="11" text-anchor="middle">32</text>
+<line x1="36" x2="1652" y1="589" y2="589" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="593" font-size="11" text-anchor="middle">33</text>
+<text x="1666" y="593" font-size="11" text-anchor="middle">33</text>
+<line x1="36" x2="1652" y1="604" y2="604" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="608" font-size="11" text-anchor="middle">34</text>
+<text x="1666" y="608" font-size="11" text-anchor="middle">34</text>
+<line x1="36" x2="1652" y1="619" y2="619" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="623" font-size="11" text-anchor="middle">35</text>
+<text x="1666" y="623" font-size="11" text-anchor="middle">35</text>
+<line x1="36" x2="1652" y1="634" y2="634" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="638" font-size="11" text-anchor="middle">36</text>
+<text x="1666" y="638" font-size="11" text-anchor="middle">36</text>
+<line x1="36" x2="1652" y1="649" y2="649" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="653" font-size="11" text-anchor="middle">37</text>
+<text x="1666" y="653" font-size="11" text-anchor="middle">37</text>
+<line x1="36" x2="1652" y1="664" y2="664" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="668" font-size="11" text-anchor="middle">38</text>
+<text x="1666" y="668" font-size="11" text-anchor="middle">38</text>
+<line x1="36" x2="1652" y1="679" y2="679" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="683" font-size="11" text-anchor="middle">39</text>
+<text x="1666" y="683" font-size="11" text-anchor="middle">39</text>
+<line x1="36" x2="1652" y1="694" y2="694" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="698" font-size="11" text-anchor="middle">40</text>
+<text x="1666" y="698" font-size="11" text-anchor="middle">40</text>
+<line x1="36" x2="1652" y1="709" y2="709" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="713" font-size="11" text-anchor="middle">41</text>
+<text x="1666" y="713" font-size="11" text-anchor="middle">41</text>
+<line x1="36" x2="1652" y1="724" y2="724" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="728" font-size="11" text-anchor="middle">42</text>
+<text x="1666" y="728" font-size="11" text-anchor="middle">42</text>
+<line x1="36" x2="1652" y1="739" y2="739" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="743" font-size="11" text-anchor="middle">43</text>
+<text x="1666" y="743" font-size="11" text-anchor="middle">43</text>
+<line x1="36" x2="1652" y1="754" y2="754" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="758" font-size="11" text-anchor="middle">44</text>
+<text x="1666" y="758" font-size="11" text-anchor="middle">44</text>
+<line x1="36" x2="1652" y1="769" y2="769" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="773" font-size="11" text-anchor="middle">45</text>
+<text x="1666" y="773" font-size="11" text-anchor="middle">45</text>
+<line x1="36" x2="1652" y1="784" y2="784" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="788" font-size="11" text-anchor="middle">46</text>
+<text x="1666" y="788" font-size="11" text-anchor="middle">46</text>
+<line x1="36" x2="1652" y1="799" y2="799" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="803" font-size="11" text-anchor="middle">47</text>
+<text x="1666" y="803" font-size="11" text-anchor="middle">47</text>
+<line x1="36" x2="1652" y1="814" y2="814" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="818" font-size="11" text-anchor="middle">48</text>
+<text x="1666" y="818" font-size="11" text-anchor="middle">48</text>
+<line x1="36" x2="1652" y1="829" y2="829" stroke="#9baab7" stroke-width="0.9"/>
+<text x="22" y="833" font-size="11" text-anchor="middle">49</text>
+<text x="1666" y="833" font-size="11" text-anchor="middle">49</text>
+<g id="layer-1" fill="#11394c"><title>Layer 1</title>
+<g><title>Wires 0 and 1</title><line x1="65" x2="65" y1="94" y2="109" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="94" r="3.1"/><circle cx="65" cy="109" r="3.1"/></g>
+<g><title>Wires 2 and 3</title><line x1="65" x2="65" y1="124" y2="139" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="124" r="3.1"/><circle cx="65" cy="139" r="3.1"/></g>
+<g><title>Wires 4 and 5</title><line x1="65" x2="65" y1="154" y2="169" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="154" r="3.1"/><circle cx="65" cy="169" r="3.1"/></g>
+<g><title>Wires 6 and 7</title><line x1="65" x2="65" y1="184" y2="199" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="184" r="3.1"/><circle cx="65" cy="199" r="3.1"/></g>
+<g><title>Wires 8 and 9</title><line x1="65" x2="65" y1="214" y2="229" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="214" r="3.1"/><circle cx="65" cy="229" r="3.1"/></g>
+<g><title>Wires 10 and 11</title><line x1="65" x2="65" y1="244" y2="259" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="244" r="3.1"/><circle cx="65" cy="259" r="3.1"/></g>
+<g><title>Wires 12 and 13</title><line x1="65" x2="65" y1="274" y2="289" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="274" r="3.1"/><circle cx="65" cy="289" r="3.1"/></g>
+<g><title>Wires 14 and 15</title><line x1="65" x2="65" y1="304" y2="319" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="304" r="3.1"/><circle cx="65" cy="319" r="3.1"/></g>
+<g><title>Wires 16 and 17</title><line x1="65" x2="65" y1="334" y2="349" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="334" r="3.1"/><circle cx="65" cy="349" r="3.1"/></g>
+<g><title>Wires 18 and 19</title><line x1="65" x2="65" y1="364" y2="379" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="364" r="3.1"/><circle cx="65" cy="379" r="3.1"/></g>
+<g><title>Wires 20 and 21</title><line x1="65" x2="65" y1="394" y2="409" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="394" r="3.1"/><circle cx="65" cy="409" r="3.1"/></g>
+<g><title>Wires 22 and 23</title><line x1="65" x2="65" y1="424" y2="439" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="424" r="3.1"/><circle cx="65" cy="439" r="3.1"/></g>
+<g><title>Wires 24 and 25</title><line x1="65" x2="65" y1="454" y2="469" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="454" r="3.1"/><circle cx="65" cy="469" r="3.1"/></g>
+<g><title>Wires 26 and 27</title><line x1="65" x2="65" y1="484" y2="499" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="484" r="3.1"/><circle cx="65" cy="499" r="3.1"/></g>
+<g><title>Wires 28 and 29</title><line x1="65" x2="65" y1="514" y2="529" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="514" r="3.1"/><circle cx="65" cy="529" r="3.1"/></g>
+<g><title>Wires 30 and 31</title><line x1="65" x2="65" y1="544" y2="559" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="544" r="3.1"/><circle cx="65" cy="559" r="3.1"/></g>
+<g><title>Wires 32 and 33</title><line x1="65" x2="65" y1="574" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="574" r="3.1"/><circle cx="65" cy="589" r="3.1"/></g>
+<g><title>Wires 34 and 35</title><line x1="65" x2="65" y1="604" y2="619" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="604" r="3.1"/><circle cx="65" cy="619" r="3.1"/></g>
+<g><title>Wires 36 and 37</title><line x1="65" x2="65" y1="634" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="634" r="3.1"/><circle cx="65" cy="649" r="3.1"/></g>
+<g><title>Wires 38 and 39</title><line x1="65" x2="65" y1="664" y2="679" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="664" r="3.1"/><circle cx="65" cy="679" r="3.1"/></g>
+<g><title>Wires 40 and 41</title><line x1="65" x2="65" y1="694" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="694" r="3.1"/><circle cx="65" cy="709" r="3.1"/></g>
+<g><title>Wires 42 and 43</title><line x1="65" x2="65" y1="724" y2="739" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="724" r="3.1"/><circle cx="65" cy="739" r="3.1"/></g>
+<g><title>Wires 44 and 45</title><line x1="65" x2="65" y1="754" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="754" r="3.1"/><circle cx="65" cy="769" r="3.1"/></g>
+<g><title>Wires 46 and 47</title><line x1="65" x2="65" y1="784" y2="799" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="784" r="3.1"/><circle cx="65" cy="799" r="3.1"/></g>
+<g><title>Wires 48 and 49</title><line x1="65" x2="65" y1="814" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="65" cy="814" r="3.1"/><circle cx="65" cy="829" r="3.1"/></g>
+</g>
+<g id="layer-2" fill="#11394c"><title>Layer 2</title>
+<g><title>Wires 0 and 2</title><line x1="94.5" x2="94.5" y1="94" y2="124" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="94" r="3.1"/><circle cx="94.5" cy="124" r="3.1"/></g>
+<g><title>Wires 1 and 3</title><line x1="105.5" x2="105.5" y1="109" y2="139" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="109" r="3.1"/><circle cx="105.5" cy="139" r="3.1"/></g>
+<g><title>Wires 4 and 6</title><line x1="94.5" x2="94.5" y1="154" y2="184" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="154" r="3.1"/><circle cx="94.5" cy="184" r="3.1"/></g>
+<g><title>Wires 5 and 7</title><line x1="105.5" x2="105.5" y1="169" y2="199" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="169" r="3.1"/><circle cx="105.5" cy="199" r="3.1"/></g>
+<g><title>Wires 8 and 10</title><line x1="94.5" x2="94.5" y1="214" y2="244" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="214" r="3.1"/><circle cx="94.5" cy="244" r="3.1"/></g>
+<g><title>Wires 9 and 11</title><line x1="105.5" x2="105.5" y1="229" y2="259" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="229" r="3.1"/><circle cx="105.5" cy="259" r="3.1"/></g>
+<g><title>Wires 12 and 14</title><line x1="94.5" x2="94.5" y1="274" y2="304" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="274" r="3.1"/><circle cx="94.5" cy="304" r="3.1"/></g>
+<g><title>Wires 13 and 15</title><line x1="105.5" x2="105.5" y1="289" y2="319" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="289" r="3.1"/><circle cx="105.5" cy="319" r="3.1"/></g>
+<g><title>Wires 16 and 18</title><line x1="94.5" x2="94.5" y1="334" y2="364" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="334" r="3.1"/><circle cx="94.5" cy="364" r="3.1"/></g>
+<g><title>Wires 17 and 19</title><line x1="105.5" x2="105.5" y1="349" y2="379" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="349" r="3.1"/><circle cx="105.5" cy="379" r="3.1"/></g>
+<g><title>Wires 20 and 22</title><line x1="94.5" x2="94.5" y1="394" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="394" r="3.1"/><circle cx="94.5" cy="424" r="3.1"/></g>
+<g><title>Wires 21 and 23</title><line x1="105.5" x2="105.5" y1="409" y2="439" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="409" r="3.1"/><circle cx="105.5" cy="439" r="3.1"/></g>
+<g><title>Wires 24 and 26</title><line x1="94.5" x2="94.5" y1="454" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="454" r="3.1"/><circle cx="94.5" cy="484" r="3.1"/></g>
+<g><title>Wires 25 and 27</title><line x1="105.5" x2="105.5" y1="469" y2="499" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="469" r="3.1"/><circle cx="105.5" cy="499" r="3.1"/></g>
+<g><title>Wires 28 and 30</title><line x1="94.5" x2="94.5" y1="514" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="514" r="3.1"/><circle cx="94.5" cy="544" r="3.1"/></g>
+<g><title>Wires 29 and 31</title><line x1="105.5" x2="105.5" y1="529" y2="559" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="529" r="3.1"/><circle cx="105.5" cy="559" r="3.1"/></g>
+<g><title>Wires 32 and 34</title><line x1="94.5" x2="94.5" y1="574" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="574" r="3.1"/><circle cx="94.5" cy="604" r="3.1"/></g>
+<g><title>Wires 33 and 35</title><line x1="105.5" x2="105.5" y1="589" y2="619" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="589" r="3.1"/><circle cx="105.5" cy="619" r="3.1"/></g>
+<g><title>Wires 36 and 38</title><line x1="94.5" x2="94.5" y1="634" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="634" r="3.1"/><circle cx="94.5" cy="664" r="3.1"/></g>
+<g><title>Wires 37 and 39</title><line x1="105.5" x2="105.5" y1="649" y2="679" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="649" r="3.1"/><circle cx="105.5" cy="679" r="3.1"/></g>
+<g><title>Wires 40 and 42</title><line x1="94.5" x2="94.5" y1="694" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="694" r="3.1"/><circle cx="94.5" cy="724" r="3.1"/></g>
+<g><title>Wires 41 and 43</title><line x1="105.5" x2="105.5" y1="709" y2="739" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="709" r="3.1"/><circle cx="105.5" cy="739" r="3.1"/></g>
+<g><title>Wires 44 and 46</title><line x1="94.5" x2="94.5" y1="754" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="94.5" cy="754" r="3.1"/><circle cx="94.5" cy="784" r="3.1"/></g>
+<g><title>Wires 45 and 47</title><line x1="105.5" x2="105.5" y1="769" y2="799" stroke="#19536b" stroke-width="1.6"/><circle cx="105.5" cy="769" r="3.1"/><circle cx="105.5" cy="799" r="3.1"/></g>
+</g>
+<g id="layer-3" fill="#11394c"><title>Layer 3</title>
+<g><title>Wires 0 and 48</title><line x1="132.5" x2="132.5" y1="94" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="132.5" cy="94" r="3.1"/><circle cx="132.5" cy="814" r="3.1"/></g>
+<g><title>Wires 1 and 2</title><line x1="143.5" x2="143.5" y1="109" y2="124" stroke="#19536b" stroke-width="1.6"/><circle cx="143.5" cy="109" r="3.1"/><circle cx="143.5" cy="124" r="3.1"/></g>
+<g><title>Wires 3 and 35</title><line x1="143.5" x2="143.5" y1="139" y2="619" stroke="#19536b" stroke-width="1.6"/><circle cx="143.5" cy="139" r="3.1"/><circle cx="143.5" cy="619" r="3.1"/></g>
+<g><title>Wires 4 and 40</title><line x1="154.5" x2="154.5" y1="154" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="154.5" cy="154" r="3.1"/><circle cx="154.5" cy="694" r="3.1"/></g>
+<g><title>Wires 5 and 6</title><line x1="165.5" x2="165.5" y1="169" y2="184" stroke="#19536b" stroke-width="1.6"/><circle cx="165.5" cy="169" r="3.1"/><circle cx="165.5" cy="184" r="3.1"/></g>
+<g><title>Wires 7 and 31</title><line x1="165.5" x2="165.5" y1="199" y2="559" stroke="#19536b" stroke-width="1.6"/><circle cx="165.5" cy="199" r="3.1"/><circle cx="165.5" cy="559" r="3.1"/></g>
+<g><title>Wires 8 and 36</title><line x1="176.5" x2="176.5" y1="214" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="176.5" cy="214" r="3.1"/><circle cx="176.5" cy="634" r="3.1"/></g>
+<g><title>Wires 9 and 10</title><line x1="187.5" x2="187.5" y1="229" y2="244" stroke="#19536b" stroke-width="1.6"/><circle cx="187.5" cy="229" r="3.1"/><circle cx="187.5" cy="244" r="3.1"/></g>
+<g><title>Wires 11 and 27</title><line x1="187.5" x2="187.5" y1="259" y2="499" stroke="#19536b" stroke-width="1.6"/><circle cx="187.5" cy="259" r="3.1"/><circle cx="187.5" cy="499" r="3.1"/></g>
+<g><title>Wires 12 and 28</title><line x1="198.5" x2="198.5" y1="274" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="198.5" cy="274" r="3.1"/><circle cx="198.5" cy="514" r="3.1"/></g>
+<g><title>Wires 13 and 14</title><line x1="209.5" x2="209.5" y1="289" y2="304" stroke="#19536b" stroke-width="1.6"/><circle cx="209.5" cy="289" r="3.1"/><circle cx="209.5" cy="304" r="3.1"/></g>
+<g><title>Wires 15 and 47</title><line x1="209.5" x2="209.5" y1="319" y2="799" stroke="#19536b" stroke-width="1.6"/><circle cx="209.5" cy="319" r="3.1"/><circle cx="209.5" cy="799" r="3.1"/></g>
+<g><title>Wires 17 and 18</title><line x1="220.5" x2="220.5" y1="349" y2="364" stroke="#19536b" stroke-width="1.6"/><circle cx="220.5" cy="349" r="3.1"/><circle cx="220.5" cy="364" r="3.1"/></g>
+<g><title>Wires 19 and 43</title><line x1="220.5" x2="220.5" y1="379" y2="739" stroke="#19536b" stroke-width="1.6"/><circle cx="220.5" cy="379" r="3.1"/><circle cx="220.5" cy="739" r="3.1"/></g>
+<g><title>Wires 20 and 44</title><line x1="231.5" x2="231.5" y1="394" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="231.5" cy="394" r="3.1"/><circle cx="231.5" cy="754" r="3.1"/></g>
+<g><title>Wires 21 and 22</title><line x1="242.5" x2="242.5" y1="409" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="242.5" cy="409" r="3.1"/><circle cx="242.5" cy="424" r="3.1"/></g>
+<g><title>Wires 23 and 39</title><line x1="242.5" x2="242.5" y1="439" y2="679" stroke="#19536b" stroke-width="1.6"/><circle cx="242.5" cy="439" r="3.1"/><circle cx="242.5" cy="679" r="3.1"/></g>
+<g><title>Wires 24 and 32</title><line x1="253.5" x2="253.5" y1="454" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="253.5" cy="454" r="3.1"/><circle cx="253.5" cy="574" r="3.1"/></g>
+<g><title>Wires 25 and 26</title><line x1="264.5" x2="264.5" y1="469" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="264.5" cy="469" r="3.1"/><circle cx="264.5" cy="484" r="3.1"/></g>
+<g><title>Wires 29 and 30</title><line x1="187.5" x2="187.5" y1="529" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="187.5" cy="529" r="3.1"/><circle cx="187.5" cy="544" r="3.1"/></g>
+<g><title>Wires 33 and 34</title><line x1="165.5" x2="165.5" y1="589" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="165.5" cy="589" r="3.1"/><circle cx="165.5" cy="604" r="3.1"/></g>
+<g><title>Wires 37 and 38</title><line x1="143.5" x2="143.5" y1="649" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="143.5" cy="649" r="3.1"/><circle cx="143.5" cy="664" r="3.1"/></g>
+<g><title>Wires 41 and 42</title><line x1="143.5" x2="143.5" y1="709" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="143.5" cy="709" r="3.1"/><circle cx="143.5" cy="724" r="3.1"/></g>
+<g><title>Wires 45 and 46</title><line x1="143.5" x2="143.5" y1="769" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="143.5" cy="769" r="3.1"/><circle cx="143.5" cy="784" r="3.1"/></g>
+</g>
+<g id="layer-4" fill="#11394c"><title>Layer 4</title>
+<g><title>Wires 1 and 45</title><line x1="291.5" x2="291.5" y1="109" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="291.5" cy="109" r="3.1"/><circle cx="291.5" cy="769" r="3.1"/></g>
+<g><title>Wires 2 and 34</title><line x1="302.5" x2="302.5" y1="124" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="302.5" cy="124" r="3.1"/><circle cx="302.5" cy="604" r="3.1"/></g>
+<g><title>Wires 3 and 7</title><line x1="313.5" x2="313.5" y1="139" y2="199" stroke="#19536b" stroke-width="1.6"/><circle cx="313.5" cy="139" r="3.1"/><circle cx="313.5" cy="199" r="3.1"/></g>
+<g><title>Wires 4 and 24</title><line x1="324.5" x2="324.5" y1="154" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="324.5" cy="154" r="3.1"/><circle cx="324.5" cy="454" r="3.1"/></g>
+<g><title>Wires 5 and 29</title><line x1="335.5" x2="335.5" y1="169" y2="529" stroke="#19536b" stroke-width="1.6"/><circle cx="335.5" cy="169" r="3.1"/><circle cx="335.5" cy="529" r="3.1"/></g>
+<g><title>Wires 6 and 30</title><line x1="346.5" x2="346.5" y1="184" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="346.5" cy="184" r="3.1"/><circle cx="346.5" cy="544" r="3.1"/></g>
+<g><title>Wires 8 and 12</title><line x1="313.5" x2="313.5" y1="214" y2="274" stroke="#19536b" stroke-width="1.6"/><circle cx="313.5" cy="214" r="3.1"/><circle cx="313.5" cy="274" r="3.1"/></g>
+<g><title>Wires 9 and 17</title><line x1="357.5" x2="357.5" y1="229" y2="349" stroke="#19536b" stroke-width="1.6"/><circle cx="357.5" cy="229" r="3.1"/><circle cx="357.5" cy="349" r="3.1"/></g>
+<g><title>Wires 10 and 26</title><line x1="368.5" x2="368.5" y1="244" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="368.5" cy="244" r="3.1"/><circle cx="368.5" cy="484" r="3.1"/></g>
+<g><title>Wires 11 and 23</title><line x1="379.5" x2="379.5" y1="259" y2="439" stroke="#19536b" stroke-width="1.6"/><circle cx="379.5" cy="259" r="3.1"/><circle cx="379.5" cy="439" r="3.1"/></g>
+<g><title>Wires 13 and 21</title><line x1="313.5" x2="313.5" y1="289" y2="409" stroke="#19536b" stroke-width="1.6"/><circle cx="313.5" cy="289" r="3.1"/><circle cx="313.5" cy="409" r="3.1"/></g>
+<g><title>Wires 14 and 46</title><line x1="390.5" x2="390.5" y1="304" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="390.5" cy="304" r="3.1"/><circle cx="390.5" cy="784" r="3.1"/></g>
+<g><title>Wires 15 and 19</title><line x1="401.5" x2="401.5" y1="319" y2="379" stroke="#19536b" stroke-width="1.6"/><circle cx="401.5" cy="319" r="3.1"/><circle cx="401.5" cy="379" r="3.1"/></g>
+<g><title>Wires 16 and 44</title><line x1="412.5" x2="412.5" y1="334" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="412.5" cy="334" r="3.1"/><circle cx="412.5" cy="754" r="3.1"/></g>
+<g><title>Wires 18 and 42</title><line x1="357.5" x2="357.5" y1="364" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="357.5" cy="364" r="3.1"/><circle cx="357.5" cy="724" r="3.1"/></g>
+<g><title>Wires 22 and 38</title><line x1="313.5" x2="313.5" y1="424" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="313.5" cy="424" r="3.1"/><circle cx="313.5" cy="664" r="3.1"/></g>
+<g><title>Wires 27 and 39</title><line x1="324.5" x2="324.5" y1="499" y2="679" stroke="#19536b" stroke-width="1.6"/><circle cx="324.5" cy="499" r="3.1"/><circle cx="324.5" cy="679" r="3.1"/></g>
+<g><title>Wires 28 and 36</title><line x1="368.5" x2="368.5" y1="514" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="368.5" cy="514" r="3.1"/><circle cx="368.5" cy="634" r="3.1"/></g>
+<g><title>Wires 31 and 35</title><line x1="335.5" x2="335.5" y1="559" y2="619" stroke="#19536b" stroke-width="1.6"/><circle cx="335.5" cy="559" r="3.1"/><circle cx="335.5" cy="619" r="3.1"/></g>
+<g><title>Wires 32 and 40</title><line x1="346.5" x2="346.5" y1="574" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="346.5" cy="574" r="3.1"/><circle cx="346.5" cy="694" r="3.1"/></g>
+<g><title>Wires 33 and 37</title><line x1="379.5" x2="379.5" y1="589" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="379.5" cy="589" r="3.1"/><circle cx="379.5" cy="649" r="3.1"/></g>
+<g><title>Wires 41 and 49</title><line x1="302.5" x2="302.5" y1="709" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="302.5" cy="709" r="3.1"/><circle cx="302.5" cy="829" r="3.1"/></g>
+<g><title>Wires 43 and 47</title><line x1="313.5" x2="313.5" y1="739" y2="799" stroke="#19536b" stroke-width="1.6"/><circle cx="313.5" cy="739" r="3.1"/><circle cx="313.5" cy="799" r="3.1"/></g>
+</g>
+<g id="layer-5" fill="#11394c"><title>Layer 5</title>
+<g><title>Wires 0 and 16</title><line x1="439.5" x2="439.5" y1="94" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="439.5" cy="94" r="3.1"/><circle cx="439.5" cy="334" r="3.1"/></g>
+<g><title>Wires 1 and 9</title><line x1="450.5" x2="450.5" y1="109" y2="229" stroke="#19536b" stroke-width="1.6"/><circle cx="450.5" cy="109" r="3.1"/><circle cx="450.5" cy="229" r="3.1"/></g>
+<g><title>Wires 2 and 6</title><line x1="461.5" x2="461.5" y1="124" y2="184" stroke="#19536b" stroke-width="1.6"/><circle cx="461.5" cy="124" r="3.1"/><circle cx="461.5" cy="184" r="3.1"/></g>
+<g><title>Wires 3 and 11</title><line x1="472.5" x2="472.5" y1="139" y2="259" stroke="#19536b" stroke-width="1.6"/><circle cx="472.5" cy="139" r="3.1"/><circle cx="472.5" cy="259" r="3.1"/></g>
+<g><title>Wires 4 and 8</title><line x1="483.5" x2="483.5" y1="154" y2="214" stroke="#19536b" stroke-width="1.6"/><circle cx="483.5" cy="154" r="3.1"/><circle cx="483.5" cy="214" r="3.1"/></g>
+<g><title>Wires 7 and 27</title><line x1="461.5" x2="461.5" y1="199" y2="499" stroke="#19536b" stroke-width="1.6"/><circle cx="461.5" cy="199" r="3.1"/><circle cx="461.5" cy="499" r="3.1"/></g>
+<g><title>Wires 10 and 22</title><line x1="450.5" x2="450.5" y1="244" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="450.5" cy="244" r="3.1"/><circle cx="450.5" cy="424" r="3.1"/></g>
+<g><title>Wires 12 and 24</title><line x1="472.5" x2="472.5" y1="274" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="472.5" cy="274" r="3.1"/><circle cx="472.5" cy="454" r="3.1"/></g>
+<g><title>Wires 13 and 25</title><line x1="483.5" x2="483.5" y1="289" y2="469" stroke="#19536b" stroke-width="1.6"/><circle cx="483.5" cy="289" r="3.1"/><circle cx="483.5" cy="469" r="3.1"/></g>
+<g><title>Wires 14 and 18</title><line x1="494.5" x2="494.5" y1="304" y2="364" stroke="#19536b" stroke-width="1.6"/><circle cx="494.5" cy="304" r="3.1"/><circle cx="494.5" cy="364" r="3.1"/></g>
+<g><title>Wires 17 and 49</title><line x1="439.5" x2="439.5" y1="349" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="439.5" cy="349" r="3.1"/><circle cx="439.5" cy="829" r="3.1"/></g>
+<g><title>Wires 21 and 29</title><line x1="494.5" x2="494.5" y1="409" y2="529" stroke="#19536b" stroke-width="1.6"/><circle cx="494.5" cy="409" r="3.1"/><circle cx="494.5" cy="529" r="3.1"/></g>
+<g><title>Wires 23 and 43</title><line x1="450.5" x2="450.5" y1="439" y2="739" stroke="#19536b" stroke-width="1.6"/><circle cx="450.5" cy="439" r="3.1"/><circle cx="450.5" cy="739" r="3.1"/></g>
+<g><title>Wires 26 and 38</title><line x1="472.5" x2="472.5" y1="484" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="472.5" cy="484" r="3.1"/><circle cx="472.5" cy="664" r="3.1"/></g>
+<g><title>Wires 28 and 32</title><line x1="461.5" x2="461.5" y1="514" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="461.5" cy="514" r="3.1"/><circle cx="461.5" cy="574" r="3.1"/></g>
+<g><title>Wires 30 and 34</title><line x1="483.5" x2="483.5" y1="544" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="483.5" cy="544" r="3.1"/><circle cx="483.5" cy="604" r="3.1"/></g>
+<g><title>Wires 33 and 41</title><line x1="461.5" x2="461.5" y1="589" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="461.5" cy="589" r="3.1"/><circle cx="461.5" cy="709" r="3.1"/></g>
+<g><title>Wires 36 and 40</title><line x1="483.5" x2="483.5" y1="634" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="483.5" cy="634" r="3.1"/><circle cx="483.5" cy="694" r="3.1"/></g>
+<g><title>Wires 39 and 47</title><line x1="472.5" x2="472.5" y1="679" y2="799" stroke="#19536b" stroke-width="1.6"/><circle cx="472.5" cy="679" r="3.1"/><circle cx="472.5" cy="799" r="3.1"/></g>
+<g><title>Wires 42 and 46</title><line x1="461.5" x2="461.5" y1="724" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="461.5" cy="724" r="3.1"/><circle cx="461.5" cy="784" r="3.1"/></g>
+<g><title>Wires 44 and 48</title><line x1="450.5" x2="450.5" y1="754" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="450.5" cy="754" r="3.1"/><circle cx="450.5" cy="814" r="3.1"/></g>
+</g>
+<g id="layer-6" fill="#11394c"><title>Layer 6</title>
+<g><title>Wires 1 and 33</title><line x1="521.5" x2="521.5" y1="109" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="521.5" cy="109" r="3.1"/><circle cx="521.5" cy="589" r="3.1"/></g>
+<g><title>Wires 2 and 10</title><line x1="532.5" x2="532.5" y1="124" y2="244" stroke="#19536b" stroke-width="1.6"/><circle cx="532.5" cy="124" r="3.1"/><circle cx="532.5" cy="244" r="3.1"/></g>
+<g><title>Wires 3 and 15</title><line x1="543.5" x2="543.5" y1="139" y2="319" stroke="#19536b" stroke-width="1.6"/><circle cx="543.5" cy="139" r="3.1"/><circle cx="543.5" cy="319" r="3.1"/></g>
+<g><title>Wires 5 and 13</title><line x1="554.5" x2="554.5" y1="169" y2="289" stroke="#19536b" stroke-width="1.6"/><circle cx="554.5" cy="169" r="3.1"/><circle cx="554.5" cy="289" r="3.1"/></g>
+<g><title>Wires 6 and 26</title><line x1="565.5" x2="565.5" y1="184" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="565.5" cy="184" r="3.1"/><circle cx="565.5" cy="484" r="3.1"/></g>
+<g><title>Wires 7 and 11</title><line x1="576.5" x2="576.5" y1="199" y2="259" stroke="#19536b" stroke-width="1.6"/><circle cx="576.5" cy="199" r="3.1"/><circle cx="576.5" cy="259" r="3.1"/></g>
+<g><title>Wires 9 and 21</title><line x1="587.5" x2="587.5" y1="229" y2="409" stroke="#19536b" stroke-width="1.6"/><circle cx="587.5" cy="229" r="3.1"/><circle cx="587.5" cy="409" r="3.1"/></g>
+<g><title>Wires 16 and 24</title><line x1="532.5" x2="532.5" y1="334" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="532.5" cy="334" r="3.1"/><circle cx="532.5" cy="454" r="3.1"/></g>
+<g><title>Wires 17 and 37</title><line x1="543.5" x2="543.5" y1="349" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="543.5" cy="349" r="3.1"/><circle cx="543.5" cy="649" r="3.1"/></g>
+<g><title>Wires 19 and 27</title><line x1="554.5" x2="554.5" y1="379" y2="499" stroke="#19536b" stroke-width="1.6"/><circle cx="554.5" cy="379" r="3.1"/><circle cx="554.5" cy="499" r="3.1"/></g>
+<g><title>Wires 20 and 36</title><line x1="576.5" x2="576.5" y1="394" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="576.5" cy="394" r="3.1"/><circle cx="576.5" cy="634" r="3.1"/></g>
+<g><title>Wires 22 and 42</title><line x1="587.5" x2="587.5" y1="424" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="587.5" cy="424" r="3.1"/><circle cx="587.5" cy="724" r="3.1"/></g>
+<g><title>Wires 23 and 31</title><line x1="598.5" x2="598.5" y1="439" y2="559" stroke="#19536b" stroke-width="1.6"/><circle cx="598.5" cy="439" r="3.1"/><circle cx="598.5" cy="559" r="3.1"/></g>
+<g><title>Wires 25 and 45</title><line x1="532.5" x2="532.5" y1="469" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="532.5" cy="469" r="3.1"/><circle cx="532.5" cy="769" r="3.1"/></g>
+<g><title>Wires 29 and 49</title><line x1="554.5" x2="554.5" y1="529" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="554.5" cy="529" r="3.1"/><circle cx="554.5" cy="829" r="3.1"/></g>
+<g><title>Wires 32 and 44</title><line x1="565.5" x2="565.5" y1="574" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="565.5" cy="574" r="3.1"/><circle cx="565.5" cy="754" r="3.1"/></g>
+<g><title>Wires 35 and 47</title><line x1="521.5" x2="521.5" y1="619" y2="799" stroke="#19536b" stroke-width="1.6"/><circle cx="521.5" cy="619" r="3.1"/><circle cx="521.5" cy="799" r="3.1"/></g>
+<g><title>Wires 38 and 46</title><line x1="543.5" x2="543.5" y1="664" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="543.5" cy="664" r="3.1"/><circle cx="543.5" cy="784" r="3.1"/></g>
+<g><title>Wires 39 and 43</title><line x1="576.5" x2="576.5" y1="679" y2="739" stroke="#19536b" stroke-width="1.6"/><circle cx="576.5" cy="679" r="3.1"/><circle cx="576.5" cy="739" r="3.1"/></g>
+<g><title>Wires 40 and 48</title><line x1="598.5" x2="598.5" y1="694" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="598.5" cy="694" r="3.1"/><circle cx="598.5" cy="814" r="3.1"/></g>
+</g>
+<g id="layer-7" fill="#11394c"><title>Layer 7</title>
+<g><title>Wires 0 and 20</title><line x1="625.5" x2="625.5" y1="94" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="625.5" cy="94" r="3.1"/><circle cx="625.5" cy="394" r="3.1"/></g>
+<g><title>Wires 1 and 5</title><line x1="636.5" x2="636.5" y1="109" y2="169" stroke="#19536b" stroke-width="1.6"/><circle cx="636.5" cy="109" r="3.1"/><circle cx="636.5" cy="169" r="3.1"/></g>
+<g><title>Wires 2 and 14</title><line x1="647.5" x2="647.5" y1="124" y2="304" stroke="#19536b" stroke-width="1.6"/><circle cx="647.5" cy="124" r="3.1"/><circle cx="647.5" cy="304" r="3.1"/></g>
+<g><title>Wires 6 and 10</title><line x1="636.5" x2="636.5" y1="184" y2="244" stroke="#19536b" stroke-width="1.6"/><circle cx="636.5" cy="184" r="3.1"/><circle cx="636.5" cy="244" r="3.1"/></g>
+<g><title>Wires 7 and 19</title><line x1="658.5" x2="658.5" y1="199" y2="379" stroke="#19536b" stroke-width="1.6"/><circle cx="658.5" cy="199" r="3.1"/><circle cx="658.5" cy="379" r="3.1"/></g>
+<g><title>Wires 9 and 41</title><line x1="669.5" x2="669.5" y1="229" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="669.5" cy="229" r="3.1"/><circle cx="669.5" cy="709" r="3.1"/></g>
+<g><title>Wires 12 and 32</title><line x1="636.5" x2="636.5" y1="274" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="636.5" cy="274" r="3.1"/><circle cx="636.5" cy="574" r="3.1"/></g>
+<g><title>Wires 13 and 33</title><line x1="680.5" x2="680.5" y1="289" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="680.5" cy="289" r="3.1"/><circle cx="680.5" cy="589" r="3.1"/></g>
+<g><title>Wires 15 and 23</title><line x1="647.5" x2="647.5" y1="319" y2="439" stroke="#19536b" stroke-width="1.6"/><circle cx="647.5" cy="319" r="3.1"/><circle cx="647.5" cy="439" r="3.1"/></g>
+<g><title>Wires 16 and 28</title><line x1="691.5" x2="691.5" y1="334" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="691.5" cy="334" r="3.1"/><circle cx="691.5" cy="514" r="3.1"/></g>
+<g><title>Wires 17 and 25</title><line x1="702.5" x2="702.5" y1="349" y2="469" stroke="#19536b" stroke-width="1.6"/><circle cx="702.5" cy="349" r="3.1"/><circle cx="702.5" cy="469" r="3.1"/></g>
+<g><title>Wires 18 and 26</title><line x1="713.5" x2="713.5" y1="364" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="713.5" cy="364" r="3.1"/><circle cx="713.5" cy="484" r="3.1"/></g>
+<g><title>Wires 22 and 30</title><line x1="625.5" x2="625.5" y1="424" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="625.5" cy="424" r="3.1"/><circle cx="625.5" cy="544" r="3.1"/></g>
+<g><title>Wires 24 and 44</title><line x1="647.5" x2="647.5" y1="454" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="647.5" cy="454" r="3.1"/><circle cx="647.5" cy="754" r="3.1"/></g>
+<g><title>Wires 27 and 35</title><line x1="658.5" x2="658.5" y1="499" y2="619" stroke="#19536b" stroke-width="1.6"/><circle cx="658.5" cy="499" r="3.1"/><circle cx="658.5" cy="619" r="3.1"/></g>
+<g><title>Wires 31 and 43</title><line x1="625.5" x2="625.5" y1="559" y2="739" stroke="#19536b" stroke-width="1.6"/><circle cx="625.5" cy="559" r="3.1"/><circle cx="625.5" cy="739" r="3.1"/></g>
+<g><title>Wires 34 and 46</title><line x1="636.5" x2="636.5" y1="604" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="636.5" cy="604" r="3.1"/><circle cx="636.5" cy="784" r="3.1"/></g>
+<g><title>Wires 36 and 40</title><line x1="658.5" x2="658.5" y1="634" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="658.5" cy="634" r="3.1"/><circle cx="658.5" cy="694" r="3.1"/></g>
+<g><title>Wires 37 and 45</title><line x1="680.5" x2="680.5" y1="649" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="680.5" cy="649" r="3.1"/><circle cx="680.5" cy="769" r="3.1"/></g>
+<g><title>Wires 38 and 42</title><line x1="691.5" x2="691.5" y1="664" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="691.5" cy="664" r="3.1"/><circle cx="691.5" cy="724" r="3.1"/></g>
+</g>
+<g id="layer-8" fill="#11394c"><title>Layer 8</title>
+<g><title>Wires 0 and 4</title><line x1="740.5" x2="740.5" y1="94" y2="154" stroke="#19536b" stroke-width="1.6"/><circle cx="740.5" cy="94" r="3.1"/><circle cx="740.5" cy="154" r="3.1"/></g>
+<g><title>Wires 2 and 48</title><line x1="751.5" x2="751.5" y1="124" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="751.5" cy="124" r="3.1"/><circle cx="751.5" cy="814" r="3.1"/></g>
+<g><title>Wires 5 and 13</title><line x1="740.5" x2="740.5" y1="169" y2="289" stroke="#19536b" stroke-width="1.6"/><circle cx="740.5" cy="169" r="3.1"/><circle cx="740.5" cy="289" r="3.1"/></g>
+<g><title>Wires 6 and 18</title><line x1="762.5" x2="762.5" y1="184" y2="364" stroke="#19536b" stroke-width="1.6"/><circle cx="762.5" cy="184" r="3.1"/><circle cx="762.5" cy="364" r="3.1"/></g>
+<g><title>Wires 7 and 15</title><line x1="773.5" x2="773.5" y1="199" y2="319" stroke="#19536b" stroke-width="1.6"/><circle cx="773.5" cy="199" r="3.1"/><circle cx="773.5" cy="319" r="3.1"/></g>
+<g><title>Wires 8 and 20</title><line x1="784.5" x2="784.5" y1="214" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="784.5" cy="214" r="3.1"/><circle cx="784.5" cy="394" r="3.1"/></g>
+<g><title>Wires 9 and 17</title><line x1="795.5" x2="795.5" y1="229" y2="349" stroke="#19536b" stroke-width="1.6"/><circle cx="795.5" cy="229" r="3.1"/><circle cx="795.5" cy="349" r="3.1"/></g>
+<g><title>Wires 11 and 23</title><line x1="806.5" x2="806.5" y1="259" y2="439" stroke="#19536b" stroke-width="1.6"/><circle cx="806.5" cy="259" r="3.1"/><circle cx="806.5" cy="439" r="3.1"/></g>
+<g><title>Wires 14 and 22</title><line x1="740.5" x2="740.5" y1="304" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="740.5" cy="304" r="3.1"/><circle cx="740.5" cy="424" r="3.1"/></g>
+<g><title>Wires 21 and 41</title><line x1="762.5" x2="762.5" y1="409" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="762.5" cy="409" r="3.1"/><circle cx="762.5" cy="709" r="3.1"/></g>
+<g><title>Wires 24 and 36</title><line x1="740.5" x2="740.5" y1="454" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="740.5" cy="454" r="3.1"/><circle cx="740.5" cy="634" r="3.1"/></g>
+<g><title>Wires 25 and 33</title><line x1="773.5" x2="773.5" y1="469" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="773.5" cy="469" r="3.1"/><circle cx="773.5" cy="589" r="3.1"/></g>
+<g><title>Wires 26 and 34</title><line x1="784.5" x2="784.5" y1="484" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="784.5" cy="484" r="3.1"/><circle cx="784.5" cy="604" r="3.1"/></g>
+<g><title>Wires 27 and 39</title><line x1="795.5" x2="795.5" y1="499" y2="679" stroke="#19536b" stroke-width="1.6"/><circle cx="795.5" cy="499" r="3.1"/><circle cx="795.5" cy="679" r="3.1"/></g>
+<g><title>Wires 28 and 32</title><line x1="806.5" x2="806.5" y1="514" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="806.5" cy="514" r="3.1"/><circle cx="806.5" cy="574" r="3.1"/></g>
+<g><title>Wires 29 and 37</title><line x1="817.5" x2="817.5" y1="529" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="817.5" cy="529" r="3.1"/><circle cx="817.5" cy="649" r="3.1"/></g>
+<g><title>Wires 30 and 42</title><line x1="828.5" x2="828.5" y1="544" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="828.5" cy="544" r="3.1"/><circle cx="828.5" cy="724" r="3.1"/></g>
+<g><title>Wires 35 and 43</title><line x1="773.5" x2="773.5" y1="619" y2="739" stroke="#19536b" stroke-width="1.6"/><circle cx="773.5" cy="619" r="3.1"/><circle cx="773.5" cy="739" r="3.1"/></g>
+<g><title>Wires 40 and 44</title><line x1="740.5" x2="740.5" y1="694" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="740.5" cy="694" r="3.1"/><circle cx="740.5" cy="754" r="3.1"/></g>
+<g><title>Wires 45 and 49</title><line x1="740.5" x2="740.5" y1="769" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="740.5" cy="769" r="3.1"/><circle cx="740.5" cy="829" r="3.1"/></g>
+</g>
+<g id="layer-9" fill="#11394c"><title>Layer 9</title>
+<g><title>Wires 3 and 49</title><line x1="855.5" x2="855.5" y1="139" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="855.5" cy="139" r="3.1"/><circle cx="855.5" cy="829" r="3.1"/></g>
+<g><title>Wires 4 and 12</title><line x1="866.5" x2="866.5" y1="154" y2="274" stroke="#19536b" stroke-width="1.6"/><circle cx="866.5" cy="154" r="3.1"/><circle cx="866.5" cy="274" r="3.1"/></g>
+<g><title>Wires 5 and 9</title><line x1="877.5" x2="877.5" y1="169" y2="229" stroke="#19536b" stroke-width="1.6"/><circle cx="877.5" cy="169" r="3.1"/><circle cx="877.5" cy="229" r="3.1"/></g>
+<g><title>Wires 6 and 14</title><line x1="888.5" x2="888.5" y1="184" y2="304" stroke="#19536b" stroke-width="1.6"/><circle cx="888.5" cy="184" r="3.1"/><circle cx="888.5" cy="304" r="3.1"/></g>
+<g><title>Wires 8 and 16</title><line x1="899.5" x2="899.5" y1="214" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="899.5" cy="214" r="3.1"/><circle cx="899.5" cy="334" r="3.1"/></g>
+<g><title>Wires 10 and 22</title><line x1="877.5" x2="877.5" y1="244" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="877.5" cy="244" r="3.1"/><circle cx="877.5" cy="424" r="3.1"/></g>
+<g><title>Wires 11 and 15</title><line x1="910.5" x2="910.5" y1="259" y2="319" stroke="#19536b" stroke-width="1.6"/><circle cx="910.5" cy="259" r="3.1"/><circle cx="910.5" cy="319" r="3.1"/></g>
+<g><title>Wires 13 and 17</title><line x1="866.5" x2="866.5" y1="289" y2="349" stroke="#19536b" stroke-width="1.6"/><circle cx="866.5" cy="289" r="3.1"/><circle cx="866.5" cy="349" r="3.1"/></g>
+<g><title>Wires 19 and 23</title><line x1="866.5" x2="866.5" y1="379" y2="439" stroke="#19536b" stroke-width="1.6"/><circle cx="866.5" cy="379" r="3.1"/><circle cx="866.5" cy="439" r="3.1"/></g>
+<g><title>Wires 20 and 24</title><line x1="888.5" x2="888.5" y1="394" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="888.5" cy="394" r="3.1"/><circle cx="888.5" cy="454" r="3.1"/></g>
+<g><title>Wires 21 and 33</title><line x1="899.5" x2="899.5" y1="409" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="899.5" cy="409" r="3.1"/><circle cx="899.5" cy="589" r="3.1"/></g>
+<g><title>Wires 25 and 37</title><line x1="866.5" x2="866.5" y1="469" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="866.5" cy="469" r="3.1"/><circle cx="866.5" cy="649" r="3.1"/></g>
+<g><title>Wires 26 and 38</title><line x1="877.5" x2="877.5" y1="484" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="877.5" cy="484" r="3.1"/><circle cx="877.5" cy="664" r="3.1"/></g>
+<g><title>Wires 27 and 31</title><line x1="888.5" x2="888.5" y1="499" y2="559" stroke="#19536b" stroke-width="1.6"/><circle cx="888.5" cy="499" r="3.1"/><circle cx="888.5" cy="559" r="3.1"/></g>
+<g><title>Wires 29 and 41</title><line x1="910.5" x2="910.5" y1="529" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="910.5" cy="529" r="3.1"/><circle cx="910.5" cy="709" r="3.1"/></g>
+<g><title>Wires 34 and 42</title><line x1="888.5" x2="888.5" y1="604" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="888.5" cy="604" r="3.1"/><circle cx="888.5" cy="724" r="3.1"/></g>
+<g><title>Wires 35 and 39</title><line x1="899.5" x2="899.5" y1="619" y2="679" stroke="#19536b" stroke-width="1.6"/><circle cx="899.5" cy="619" r="3.1"/><circle cx="899.5" cy="679" r="3.1"/></g>
+<g><title>Wires 36 and 40</title><line x1="921.5" x2="921.5" y1="634" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="921.5" cy="634" r="3.1"/><circle cx="921.5" cy="694" r="3.1"/></g>
+</g>
+<g id="layer-10" fill="#11394c"><title>Layer 10</title>
+<g><title>Wires 3 and 48</title><line x1="948.5" x2="948.5" y1="139" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="948.5" cy="139" r="3.1"/><circle cx="948.5" cy="814" r="3.1"/></g>
+<g><title>Wires 4 and 8</title><line x1="959.5" x2="959.5" y1="154" y2="214" stroke="#19536b" stroke-width="1.6"/><circle cx="959.5" cy="154" r="3.1"/><circle cx="959.5" cy="214" r="3.1"/></g>
+<g><title>Wires 9 and 13</title><line x1="959.5" x2="959.5" y1="229" y2="289" stroke="#19536b" stroke-width="1.6"/><circle cx="959.5" cy="229" r="3.1"/><circle cx="959.5" cy="289" r="3.1"/></g>
+<g><title>Wires 10 and 14</title><line x1="970.5" x2="970.5" y1="244" y2="304" stroke="#19536b" stroke-width="1.6"/><circle cx="970.5" cy="244" r="3.1"/><circle cx="970.5" cy="304" r="3.1"/></g>
+<g><title>Wires 11 and 40</title><line x1="981.5" x2="981.5" y1="259" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="981.5" cy="259" r="3.1"/><circle cx="981.5" cy="694" r="3.1"/></g>
+<g><title>Wires 12 and 16</title><line x1="992.5" x2="992.5" y1="274" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="992.5" cy="274" r="3.1"/><circle cx="992.5" cy="334" r="3.1"/></g>
+<g><title>Wires 17 and 29</title><line x1="959.5" x2="959.5" y1="349" y2="529" stroke="#19536b" stroke-width="1.6"/><circle cx="959.5" cy="349" r="3.1"/><circle cx="959.5" cy="529" r="3.1"/></g>
+<g><title>Wires 18 and 22</title><line x1="970.5" x2="970.5" y1="364" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="970.5" cy="364" r="3.1"/><circle cx="970.5" cy="424" r="3.1"/></g>
+<g><title>Wires 19 and 27</title><line x1="992.5" x2="992.5" y1="379" y2="499" stroke="#19536b" stroke-width="1.6"/><circle cx="992.5" cy="379" r="3.1"/><circle cx="992.5" cy="499" r="3.1"/></g>
+<g><title>Wires 20 and 28</title><line x1="1003.5" x2="1003.5" y1="394" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1003.5" cy="394" r="3.1"/><circle cx="1003.5" cy="514" r="3.1"/></g>
+<g><title>Wires 21 and 25</title><line x1="1014.5" x2="1014.5" y1="409" y2="469" stroke="#19536b" stroke-width="1.6"/><circle cx="1014.5" cy="409" r="3.1"/><circle cx="1014.5" cy="469" r="3.1"/></g>
+<g><title>Wires 23 and 31</title><line x1="970.5" x2="970.5" y1="439" y2="559" stroke="#19536b" stroke-width="1.6"/><circle cx="970.5" cy="439" r="3.1"/><circle cx="970.5" cy="559" r="3.1"/></g>
+<g><title>Wires 24 and 32</title><line x1="1025.5" x2="1025.5" y1="454" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="1025.5" cy="454" r="3.1"/><circle cx="1025.5" cy="574" r="3.1"/></g>
+<g><title>Wires 26 and 30</title><line x1="1014.5" x2="1014.5" y1="484" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="1014.5" cy="484" r="3.1"/><circle cx="1014.5" cy="544" r="3.1"/></g>
+<g><title>Wires 33 and 45</title><line x1="959.5" x2="959.5" y1="589" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="959.5" cy="589" r="3.1"/><circle cx="959.5" cy="769" r="3.1"/></g>
+<g><title>Wires 34 and 38</title><line x1="970.5" x2="970.5" y1="604" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="970.5" cy="604" r="3.1"/><circle cx="970.5" cy="664" r="3.1"/></g>
+<g><title>Wires 37 and 41</title><line x1="992.5" x2="992.5" y1="649" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="992.5" cy="649" r="3.1"/><circle cx="992.5" cy="709" r="3.1"/></g>
+</g>
+<g id="layer-11" fill="#11394c"><title>Layer 11</title>
+<g><title>Wires 8 and 12</title><line x1="1052.5" x2="1052.5" y1="214" y2="274" stroke="#19536b" stroke-width="1.6"/><circle cx="1052.5" cy="214" r="3.1"/><circle cx="1052.5" cy="274" r="3.1"/></g>
+<g><title>Wires 10 and 11</title><line x1="1063.5" x2="1063.5" y1="244" y2="259" stroke="#19536b" stroke-width="1.6"/><circle cx="1063.5" cy="244" r="3.1"/><circle cx="1063.5" cy="259" r="3.1"/></g>
+<g><title>Wires 15 and 19</title><line x1="1052.5" x2="1052.5" y1="319" y2="379" stroke="#19536b" stroke-width="1.6"/><circle cx="1052.5" cy="319" r="3.1"/><circle cx="1052.5" cy="379" r="3.1"/></g>
+<g><title>Wires 16 and 20</title><line x1="1063.5" x2="1063.5" y1="334" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="1063.5" cy="334" r="3.1"/><circle cx="1063.5" cy="394" r="3.1"/></g>
+<g><title>Wires 17 and 21</title><line x1="1074.5" x2="1074.5" y1="349" y2="409" stroke="#19536b" stroke-width="1.6"/><circle cx="1074.5" cy="349" r="3.1"/><circle cx="1074.5" cy="409" r="3.1"/></g>
+<g><title>Wires 18 and 26</title><line x1="1085.5" x2="1085.5" y1="364" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="1085.5" cy="364" r="3.1"/><circle cx="1085.5" cy="484" r="3.1"/></g>
+<g><title>Wires 22 and 30</title><line x1="1052.5" x2="1052.5" y1="424" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="1052.5" cy="424" r="3.1"/><circle cx="1052.5" cy="544" r="3.1"/></g>
+<g><title>Wires 23 and 27</title><line x1="1063.5" x2="1063.5" y1="439" y2="499" stroke="#19536b" stroke-width="1.6"/><circle cx="1063.5" cy="439" r="3.1"/><circle cx="1063.5" cy="499" r="3.1"/></g>
+<g><title>Wires 24 and 28</title><line x1="1074.5" x2="1074.5" y1="454" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1074.5" cy="454" r="3.1"/><circle cx="1074.5" cy="514" r="3.1"/></g>
+<g><title>Wires 25 and 29</title><line x1="1096.5" x2="1096.5" y1="469" y2="529" stroke="#19536b" stroke-width="1.6"/><circle cx="1096.5" cy="469" r="3.1"/><circle cx="1096.5" cy="529" r="3.1"/></g>
+<g><title>Wires 31 and 35</title><line x1="1052.5" x2="1052.5" y1="559" y2="619" stroke="#19536b" stroke-width="1.6"/><circle cx="1052.5" cy="559" r="3.1"/><circle cx="1052.5" cy="619" r="3.1"/></g>
+<g><title>Wires 32 and 36</title><line x1="1063.5" x2="1063.5" y1="574" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="1063.5" cy="574" r="3.1"/><circle cx="1063.5" cy="634" r="3.1"/></g>
+<g><title>Wires 33 and 37</title><line x1="1074.5" x2="1074.5" y1="589" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="1074.5" cy="589" r="3.1"/><circle cx="1074.5" cy="649" r="3.1"/></g>
+<g><title>Wires 41 and 45</title><line x1="1052.5" x2="1052.5" y1="709" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="1052.5" cy="709" r="3.1"/><circle cx="1052.5" cy="769" r="3.1"/></g>
+</g>
+<g id="layer-12" fill="#11394c"><title>Layer 12</title>
+<g><title>Wires 3 and 32</title><line x1="1123.5" x2="1123.5" y1="139" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="1123.5" cy="139" r="3.1"/><circle cx="1123.5" cy="574" r="3.1"/></g>
+<g><title>Wires 7 and 36</title><line x1="1134.5" x2="1134.5" y1="199" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="1134.5" cy="199" r="3.1"/><circle cx="1134.5" cy="634" r="3.1"/></g>
+<g><title>Wires 12 and 16</title><line x1="1145.5" x2="1145.5" y1="274" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="1145.5" cy="274" r="3.1"/><circle cx="1145.5" cy="334" r="3.1"/></g>
+<g><title>Wires 13 and 17</title><line x1="1156.5" x2="1156.5" y1="289" y2="349" stroke="#19536b" stroke-width="1.6"/><circle cx="1156.5" cy="289" r="3.1"/><circle cx="1156.5" cy="349" r="3.1"/></g>
+<g><title>Wires 14 and 18</title><line x1="1167.5" x2="1167.5" y1="304" y2="364" stroke="#19536b" stroke-width="1.6"/><circle cx="1167.5" cy="304" r="3.1"/><circle cx="1167.5" cy="364" r="3.1"/></g>
+<g><title>Wires 15 and 44</title><line x1="1178.5" x2="1178.5" y1="319" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="1178.5" cy="319" r="3.1"/><circle cx="1178.5" cy="754" r="3.1"/></g>
+<g><title>Wires 19 and 48</title><line x1="1145.5" x2="1145.5" y1="379" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="1145.5" cy="379" r="3.1"/><circle cx="1145.5" cy="814" r="3.1"/></g>
+<g><title>Wires 20 and 24</title><line x1="1156.5" x2="1156.5" y1="394" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="1156.5" cy="394" r="3.1"/><circle cx="1156.5" cy="454" r="3.1"/></g>
+<g><title>Wires 21 and 25</title><line x1="1167.5" x2="1167.5" y1="409" y2="469" stroke="#19536b" stroke-width="1.6"/><circle cx="1167.5" cy="409" r="3.1"/><circle cx="1167.5" cy="469" r="3.1"/></g>
+<g><title>Wires 22 and 26</title><line x1="1189.5" x2="1189.5" y1="424" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="1189.5" cy="424" r="3.1"/><circle cx="1189.5" cy="484" r="3.1"/></g>
+<g><title>Wires 23 and 38</title><line x1="1200.5" x2="1200.5" y1="439" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="1200.5" cy="439" r="3.1"/><circle cx="1200.5" cy="664" r="3.1"/></g>
+<g><title>Wires 27 and 42</title><line x1="1156.5" x2="1156.5" y1="499" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="1156.5" cy="499" r="3.1"/><circle cx="1156.5" cy="724" r="3.1"/></g>
+<g><title>Wires 29 and 33</title><line x1="1167.5" x2="1167.5" y1="529" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="1167.5" cy="529" r="3.1"/><circle cx="1167.5" cy="589" r="3.1"/></g>
+<g><title>Wires 30 and 34</title><line x1="1189.5" x2="1189.5" y1="544" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="1189.5" cy="544" r="3.1"/><circle cx="1189.5" cy="604" r="3.1"/></g>
+<g><title>Wires 31 and 46</title><line x1="1211.5" x2="1211.5" y1="559" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="1211.5" cy="559" r="3.1"/><circle cx="1211.5" cy="784" r="3.1"/></g>
+<g><title>Wires 37 and 41</title><line x1="1123.5" x2="1123.5" y1="649" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="1123.5" cy="649" r="3.1"/><circle cx="1123.5" cy="709" r="3.1"/></g>
+</g>
+<g id="layer-13" fill="#11394c"><title>Layer 13</title>
+<g><title>Wires 1 and 16</title><line x1="1238.5" x2="1238.5" y1="109" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="1238.5" cy="109" r="3.1"/><circle cx="1238.5" cy="334" r="3.1"/></g>
+<g><title>Wires 2 and 3</title><line x1="1249.5" x2="1249.5" y1="124" y2="139" stroke="#19536b" stroke-width="1.6"/><circle cx="1249.5" cy="124" r="3.1"/><circle cx="1249.5" cy="139" r="3.1"/></g>
+<g><title>Wires 5 and 20</title><line x1="1249.5" x2="1249.5" y1="169" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="1249.5" cy="169" r="3.1"/><circle cx="1249.5" cy="394" r="3.1"/></g>
+<g><title>Wires 6 and 7</title><line x1="1260.5" x2="1260.5" y1="184" y2="199" stroke="#19536b" stroke-width="1.6"/><circle cx="1260.5" cy="184" r="3.1"/><circle cx="1260.5" cy="199" r="3.1"/></g>
+<g><title>Wires 9 and 24</title><line x1="1260.5" x2="1260.5" y1="229" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="1260.5" cy="229" r="3.1"/><circle cx="1260.5" cy="454" r="3.1"/></g>
+<g><title>Wires 11 and 25</title><line x1="1271.5" x2="1271.5" y1="259" y2="469" stroke="#19536b" stroke-width="1.6"/><circle cx="1271.5" cy="259" r="3.1"/><circle cx="1271.5" cy="469" r="3.1"/></g>
+<g><title>Wires 13 and 28</title><line x1="1282.5" x2="1282.5" y1="289" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1282.5" cy="289" r="3.1"/><circle cx="1282.5" cy="514" r="3.1"/></g>
+<g><title>Wires 14 and 15</title><line x1="1293.5" x2="1293.5" y1="304" y2="319" stroke="#19536b" stroke-width="1.6"/><circle cx="1293.5" cy="304" r="3.1"/><circle cx="1293.5" cy="319" r="3.1"/></g>
+<g><title>Wires 17 and 19</title><line x1="1238.5" x2="1238.5" y1="349" y2="379" stroke="#19536b" stroke-width="1.6"/><circle cx="1238.5" cy="349" r="3.1"/><circle cx="1238.5" cy="379" r="3.1"/></g>
+<g><title>Wires 18 and 33</title><line x1="1293.5" x2="1293.5" y1="364" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="1293.5" cy="364" r="3.1"/><circle cx="1293.5" cy="589" r="3.1"/></g>
+<g><title>Wires 32 and 34</title><line x1="1238.5" x2="1238.5" y1="574" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="1238.5" cy="574" r="3.1"/><circle cx="1238.5" cy="604" r="3.1"/></g>
+<g><title>Wires 36 and 37</title><line x1="1238.5" x2="1238.5" y1="634" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="1238.5" cy="634" r="3.1"/><circle cx="1238.5" cy="649" r="3.1"/></g>
+<g><title>Wires 40 and 41</title><line x1="1238.5" x2="1238.5" y1="694" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="1238.5" cy="694" r="3.1"/><circle cx="1238.5" cy="709" r="3.1"/></g>
+<g><title>Wires 44 and 45</title><line x1="1238.5" x2="1238.5" y1="754" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="1238.5" cy="754" r="3.1"/><circle cx="1238.5" cy="769" r="3.1"/></g>
+<g><title>Wires 48 and 49</title><line x1="1238.5" x2="1238.5" y1="814" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="1238.5" cy="814" r="3.1"/><circle cx="1238.5" cy="829" r="3.1"/></g>
+</g>
+<g id="layer-14" fill="#11394c"><title>Layer 14</title>
+<g><title>Wires 1 and 4</title><line x1="1320.5" x2="1320.5" y1="109" y2="154" stroke="#19536b" stroke-width="1.6"/><circle cx="1320.5" cy="109" r="3.1"/><circle cx="1320.5" cy="154" r="3.1"/></g>
+<g><title>Wires 2 and 16</title><line x1="1331.5" x2="1331.5" y1="124" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="1331.5" cy="124" r="3.1"/><circle cx="1331.5" cy="334" r="3.1"/></g>
+<g><title>Wires 3 and 17</title><line x1="1342.5" x2="1342.5" y1="139" y2="349" stroke="#19536b" stroke-width="1.6"/><circle cx="1342.5" cy="139" r="3.1"/><circle cx="1342.5" cy="349" r="3.1"/></g>
+<g><title>Wires 6 and 20</title><line x1="1320.5" x2="1320.5" y1="184" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="1320.5" cy="184" r="3.1"/><circle cx="1320.5" cy="394" r="3.1"/></g>
+<g><title>Wires 7 and 21</title><line x1="1353.5" x2="1353.5" y1="199" y2="409" stroke="#19536b" stroke-width="1.6"/><circle cx="1353.5" cy="199" r="3.1"/><circle cx="1353.5" cy="409" r="3.1"/></g>
+<g><title>Wires 10 and 24</title><line x1="1364.5" x2="1364.5" y1="244" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="1364.5" cy="244" r="3.1"/><circle cx="1364.5" cy="454" r="3.1"/></g>
+<g><title>Wires 14 and 28</title><line x1="1375.5" x2="1375.5" y1="304" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1375.5" cy="304" r="3.1"/><circle cx="1375.5" cy="514" r="3.1"/></g>
+<g><title>Wires 15 and 29</title><line x1="1386.5" x2="1386.5" y1="319" y2="529" stroke="#19536b" stroke-width="1.6"/><circle cx="1386.5" cy="319" r="3.1"/><circle cx="1386.5" cy="529" r="3.1"/></g>
+<g><title>Wires 18 and 32</title><line x1="1331.5" x2="1331.5" y1="364" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="1331.5" cy="364" r="3.1"/><circle cx="1331.5" cy="574" r="3.1"/></g>
+<g><title>Wires 19 and 33</title><line x1="1342.5" x2="1342.5" y1="379" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="1342.5" cy="379" r="3.1"/><circle cx="1342.5" cy="589" r="3.1"/></g>
+<g><title>Wires 22 and 36</title><line x1="1320.5" x2="1320.5" y1="424" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="1320.5" cy="424" r="3.1"/><circle cx="1320.5" cy="634" r="3.1"/></g>
+<g><title>Wires 23 and 37</title><line x1="1353.5" x2="1353.5" y1="439" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="1353.5" cy="439" r="3.1"/><circle cx="1353.5" cy="649" r="3.1"/></g>
+<g><title>Wires 26 and 40</title><line x1="1364.5" x2="1364.5" y1="484" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="1364.5" cy="484" r="3.1"/><circle cx="1364.5" cy="694" r="3.1"/></g>
+<g><title>Wires 27 and 41</title><line x1="1397.5" x2="1397.5" y1="499" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="1397.5" cy="499" r="3.1"/><circle cx="1397.5" cy="709" r="3.1"/></g>
+<g><title>Wires 30 and 44</title><line x1="1375.5" x2="1375.5" y1="544" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="1375.5" cy="544" r="3.1"/><circle cx="1375.5" cy="754" r="3.1"/></g>
+<g><title>Wires 31 and 45</title><line x1="1386.5" x2="1386.5" y1="559" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="1386.5" cy="559" r="3.1"/><circle cx="1386.5" cy="769" r="3.1"/></g>
+<g><title>Wires 34 and 48</title><line x1="1331.5" x2="1331.5" y1="604" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="1331.5" cy="604" r="3.1"/><circle cx="1331.5" cy="814" r="3.1"/></g>
+<g><title>Wires 35 and 49</title><line x1="1342.5" x2="1342.5" y1="619" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="1342.5" cy="619" r="3.1"/><circle cx="1342.5" cy="829" r="3.1"/></g>
+</g>
+<g id="layer-15" fill="#11394c"><title>Layer 15</title>
+<g><title>Wires 2 and 8</title><line x1="1424.5" x2="1424.5" y1="124" y2="214" stroke="#19536b" stroke-width="1.6"/><circle cx="1424.5" cy="124" r="3.1"/><circle cx="1424.5" cy="214" r="3.1"/></g>
+<g><title>Wires 3 and 16</title><line x1="1435.5" x2="1435.5" y1="139" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="1435.5" cy="139" r="3.1"/><circle cx="1435.5" cy="334" r="3.1"/></g>
+<g><title>Wires 6 and 12</title><line x1="1446.5" x2="1446.5" y1="184" y2="274" stroke="#19536b" stroke-width="1.6"/><circle cx="1446.5" cy="184" r="3.1"/><circle cx="1446.5" cy="274" r="3.1"/></g>
+<g><title>Wires 7 and 20</title><line x1="1457.5" x2="1457.5" y1="199" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="1457.5" cy="199" r="3.1"/><circle cx="1457.5" cy="394" r="3.1"/></g>
+<g><title>Wires 11 and 24</title><line x1="1424.5" x2="1424.5" y1="259" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="1424.5" cy="259" r="3.1"/><circle cx="1424.5" cy="454" r="3.1"/></g>
+<g><title>Wires 15 and 28</title><line x1="1446.5" x2="1446.5" y1="319" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1446.5" cy="319" r="3.1"/><circle cx="1446.5" cy="514" r="3.1"/></g>
+<g><title>Wires 17 and 18</title><line x1="1435.5" x2="1435.5" y1="349" y2="364" stroke="#19536b" stroke-width="1.6"/><circle cx="1435.5" cy="349" r="3.1"/><circle cx="1435.5" cy="364" r="3.1"/></g>
+<g><title>Wires 19 and 32</title><line x1="1435.5" x2="1435.5" y1="379" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="1435.5" cy="379" r="3.1"/><circle cx="1435.5" cy="574" r="3.1"/></g>
+<g><title>Wires 21 and 22</title><line x1="1457.5" x2="1457.5" y1="409" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="1457.5" cy="409" r="3.1"/><circle cx="1457.5" cy="424" r="3.1"/></g>
+<g><title>Wires 23 and 36</title><line x1="1457.5" x2="1457.5" y1="439" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="1457.5" cy="439" r="3.1"/><circle cx="1457.5" cy="634" r="3.1"/></g>
+<g><title>Wires 25 and 26</title><line x1="1424.5" x2="1424.5" y1="469" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="1424.5" cy="469" r="3.1"/><circle cx="1424.5" cy="484" r="3.1"/></g>
+<g><title>Wires 27 and 40</title><line x1="1424.5" x2="1424.5" y1="499" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="1424.5" cy="499" r="3.1"/><circle cx="1424.5" cy="694" r="3.1"/></g>
+<g><title>Wires 29 and 30</title><line x1="1446.5" x2="1446.5" y1="529" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="1446.5" cy="529" r="3.1"/><circle cx="1446.5" cy="544" r="3.1"/></g>
+<g><title>Wires 31 and 44</title><line x1="1446.5" x2="1446.5" y1="559" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="1446.5" cy="559" r="3.1"/><circle cx="1446.5" cy="754" r="3.1"/></g>
+<g><title>Wires 33 and 34</title><line x1="1435.5" x2="1435.5" y1="589" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="1435.5" cy="589" r="3.1"/><circle cx="1435.5" cy="604" r="3.1"/></g>
+<g><title>Wires 35 and 48</title><line x1="1435.5" x2="1435.5" y1="619" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="1435.5" cy="619" r="3.1"/><circle cx="1435.5" cy="814" r="3.1"/></g>
+<g><title>Wires 39 and 45</title><line x1="1457.5" x2="1457.5" y1="679" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="1457.5" cy="679" r="3.1"/><circle cx="1457.5" cy="769" r="3.1"/></g>
+<g><title>Wires 43 and 49</title><line x1="1424.5" x2="1424.5" y1="739" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="1424.5" cy="739" r="3.1"/><circle cx="1424.5" cy="829" r="3.1"/></g>
+</g>
+<g id="layer-16" fill="#11394c"><title>Layer 16</title>
+<g><title>Wires 2 and 4</title><line x1="1484.5" x2="1484.5" y1="124" y2="154" stroke="#19536b" stroke-width="1.6"/><circle cx="1484.5" cy="124" r="3.1"/><circle cx="1484.5" cy="154" r="3.1"/></g>
+<g><title>Wires 3 and 9</title><line x1="1495.5" x2="1495.5" y1="139" y2="229" stroke="#19536b" stroke-width="1.6"/><circle cx="1495.5" cy="139" r="3.1"/><circle cx="1495.5" cy="229" r="3.1"/></g>
+<g><title>Wires 5 and 8</title><line x1="1484.5" x2="1484.5" y1="169" y2="214" stroke="#19536b" stroke-width="1.6"/><circle cx="1484.5" cy="169" r="3.1"/><circle cx="1484.5" cy="214" r="3.1"/></g>
+<g><title>Wires 7 and 13</title><line x1="1506.5" x2="1506.5" y1="199" y2="289" stroke="#19536b" stroke-width="1.6"/><circle cx="1506.5" cy="199" r="3.1"/><circle cx="1506.5" cy="289" r="3.1"/></g>
+<g><title>Wires 10 and 16</title><line x1="1484.5" x2="1484.5" y1="244" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="1484.5" cy="244" r="3.1"/><circle cx="1484.5" cy="334" r="3.1"/></g>
+<g><title>Wires 11 and 17</title><line x1="1495.5" x2="1495.5" y1="259" y2="349" stroke="#19536b" stroke-width="1.6"/><circle cx="1495.5" cy="259" r="3.1"/><circle cx="1495.5" cy="349" r="3.1"/></g>
+<g><title>Wires 14 and 20</title><line x1="1506.5" x2="1506.5" y1="304" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="1506.5" cy="304" r="3.1"/><circle cx="1506.5" cy="394" r="3.1"/></g>
+<g><title>Wires 15 and 21</title><line x1="1517.5" x2="1517.5" y1="319" y2="409" stroke="#19536b" stroke-width="1.6"/><circle cx="1517.5" cy="319" r="3.1"/><circle cx="1517.5" cy="409" r="3.1"/></g>
+<g><title>Wires 18 and 24</title><line x1="1484.5" x2="1484.5" y1="364" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="1484.5" cy="364" r="3.1"/><circle cx="1484.5" cy="454" r="3.1"/></g>
+<g><title>Wires 19 and 25</title><line x1="1495.5" x2="1495.5" y1="379" y2="469" stroke="#19536b" stroke-width="1.6"/><circle cx="1495.5" cy="379" r="3.1"/><circle cx="1495.5" cy="469" r="3.1"/></g>
+<g><title>Wires 22 and 28</title><line x1="1506.5" x2="1506.5" y1="424" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1506.5" cy="424" r="3.1"/><circle cx="1506.5" cy="514" r="3.1"/></g>
+<g><title>Wires 23 and 29</title><line x1="1517.5" x2="1517.5" y1="439" y2="529" stroke="#19536b" stroke-width="1.6"/><circle cx="1517.5" cy="439" r="3.1"/><circle cx="1517.5" cy="529" r="3.1"/></g>
+<g><title>Wires 26 and 32</title><line x1="1484.5" x2="1484.5" y1="484" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="1484.5" cy="484" r="3.1"/><circle cx="1484.5" cy="574" r="3.1"/></g>
+<g><title>Wires 27 and 33</title><line x1="1495.5" x2="1495.5" y1="499" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="1495.5" cy="499" r="3.1"/><circle cx="1495.5" cy="589" r="3.1"/></g>
+<g><title>Wires 30 and 36</title><line x1="1506.5" x2="1506.5" y1="544" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="1506.5" cy="544" r="3.1"/><circle cx="1506.5" cy="634" r="3.1"/></g>
+<g><title>Wires 31 and 37</title><line x1="1517.5" x2="1517.5" y1="559" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="1517.5" cy="559" r="3.1"/><circle cx="1517.5" cy="649" r="3.1"/></g>
+<g><title>Wires 34 and 40</title><line x1="1484.5" x2="1484.5" y1="604" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="1484.5" cy="604" r="3.1"/><circle cx="1484.5" cy="694" r="3.1"/></g>
+<g><title>Wires 35 and 41</title><line x1="1495.5" x2="1495.5" y1="619" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="1495.5" cy="619" r="3.1"/><circle cx="1495.5" cy="709" r="3.1"/></g>
+<g><title>Wires 38 and 44</title><line x1="1506.5" x2="1506.5" y1="664" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="1506.5" cy="664" r="3.1"/><circle cx="1506.5" cy="754" r="3.1"/></g>
+<g><title>Wires 42 and 48</title><line x1="1484.5" x2="1484.5" y1="724" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="1484.5" cy="724" r="3.1"/><circle cx="1484.5" cy="814" r="3.1"/></g>
+<g><title>Wires 43 and 46</title><line x1="1495.5" x2="1495.5" y1="739" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="1495.5" cy="739" r="3.1"/><circle cx="1495.5" cy="784" r="3.1"/></g>
+<g><title>Wires 47 and 49</title><line x1="1495.5" x2="1495.5" y1="799" y2="829" stroke="#19536b" stroke-width="1.6"/><circle cx="1495.5" cy="799" r="3.1"/><circle cx="1495.5" cy="829" r="3.1"/></g>
+</g>
+<g id="layer-17" fill="#11394c"><title>Layer 17</title>
+<g><title>Wires 3 and 6</title><line x1="1544.5" x2="1544.5" y1="139" y2="184" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="139" r="3.1"/><circle cx="1544.5" cy="184" r="3.1"/></g>
+<g><title>Wires 7 and 10</title><line x1="1544.5" x2="1544.5" y1="199" y2="244" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="199" r="3.1"/><circle cx="1544.5" cy="244" r="3.1"/></g>
+<g><title>Wires 9 and 12</title><line x1="1555.5" x2="1555.5" y1="229" y2="274" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="229" r="3.1"/><circle cx="1555.5" cy="274" r="3.1"/></g>
+<g><title>Wires 11 and 14</title><line x1="1544.5" x2="1544.5" y1="259" y2="304" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="259" r="3.1"/><circle cx="1544.5" cy="304" r="3.1"/></g>
+<g><title>Wires 13 and 16</title><line x1="1555.5" x2="1555.5" y1="289" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="289" r="3.1"/><circle cx="1555.5" cy="334" r="3.1"/></g>
+<g><title>Wires 15 and 18</title><line x1="1544.5" x2="1544.5" y1="319" y2="364" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="319" r="3.1"/><circle cx="1544.5" cy="364" r="3.1"/></g>
+<g><title>Wires 17 and 20</title><line x1="1555.5" x2="1555.5" y1="349" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="349" r="3.1"/><circle cx="1555.5" cy="394" r="3.1"/></g>
+<g><title>Wires 19 and 22</title><line x1="1544.5" x2="1544.5" y1="379" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="379" r="3.1"/><circle cx="1544.5" cy="424" r="3.1"/></g>
+<g><title>Wires 21 and 24</title><line x1="1555.5" x2="1555.5" y1="409" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="409" r="3.1"/><circle cx="1555.5" cy="454" r="3.1"/></g>
+<g><title>Wires 23 and 26</title><line x1="1544.5" x2="1544.5" y1="439" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="439" r="3.1"/><circle cx="1544.5" cy="484" r="3.1"/></g>
+<g><title>Wires 25 and 28</title><line x1="1555.5" x2="1555.5" y1="469" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="469" r="3.1"/><circle cx="1555.5" cy="514" r="3.1"/></g>
+<g><title>Wires 27 and 30</title><line x1="1544.5" x2="1544.5" y1="499" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="499" r="3.1"/><circle cx="1544.5" cy="544" r="3.1"/></g>
+<g><title>Wires 29 and 32</title><line x1="1555.5" x2="1555.5" y1="529" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="529" r="3.1"/><circle cx="1555.5" cy="574" r="3.1"/></g>
+<g><title>Wires 31 and 34</title><line x1="1544.5" x2="1544.5" y1="559" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="559" r="3.1"/><circle cx="1544.5" cy="604" r="3.1"/></g>
+<g><title>Wires 33 and 36</title><line x1="1555.5" x2="1555.5" y1="589" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="589" r="3.1"/><circle cx="1555.5" cy="634" r="3.1"/></g>
+<g><title>Wires 35 and 38</title><line x1="1544.5" x2="1544.5" y1="619" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="619" r="3.1"/><circle cx="1544.5" cy="664" r="3.1"/></g>
+<g><title>Wires 37 and 40</title><line x1="1555.5" x2="1555.5" y1="649" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="649" r="3.1"/><circle cx="1555.5" cy="694" r="3.1"/></g>
+<g><title>Wires 39 and 42</title><line x1="1544.5" x2="1544.5" y1="679" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="679" r="3.1"/><circle cx="1544.5" cy="724" r="3.1"/></g>
+<g><title>Wires 41 and 44</title><line x1="1555.5" x2="1555.5" y1="709" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="1555.5" cy="709" r="3.1"/><circle cx="1555.5" cy="754" r="3.1"/></g>
+<g><title>Wires 45 and 48</title><line x1="1544.5" x2="1544.5" y1="769" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="1544.5" cy="769" r="3.1"/><circle cx="1544.5" cy="814" r="3.1"/></g>
+</g>
+<g id="layer-18" fill="#11394c"><title>Layer 18</title>
+<g><title>Wires 3 and 5</title><line x1="1582.5" x2="1582.5" y1="139" y2="169" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="139" r="3.1"/><circle cx="1582.5" cy="169" r="3.1"/></g>
+<g><title>Wires 6 and 8</title><line x1="1582.5" x2="1582.5" y1="184" y2="214" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="184" r="3.1"/><circle cx="1582.5" cy="214" r="3.1"/></g>
+<g><title>Wires 7 and 9</title><line x1="1593.5" x2="1593.5" y1="199" y2="229" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="199" r="3.1"/><circle cx="1593.5" cy="229" r="3.1"/></g>
+<g><title>Wires 10 and 12</title><line x1="1582.5" x2="1582.5" y1="244" y2="274" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="244" r="3.1"/><circle cx="1582.5" cy="274" r="3.1"/></g>
+<g><title>Wires 11 and 13</title><line x1="1593.5" x2="1593.5" y1="259" y2="289" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="259" r="3.1"/><circle cx="1593.5" cy="289" r="3.1"/></g>
+<g><title>Wires 14 and 16</title><line x1="1582.5" x2="1582.5" y1="304" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="304" r="3.1"/><circle cx="1582.5" cy="334" r="3.1"/></g>
+<g><title>Wires 15 and 17</title><line x1="1593.5" x2="1593.5" y1="319" y2="349" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="319" r="3.1"/><circle cx="1593.5" cy="349" r="3.1"/></g>
+<g><title>Wires 18 and 20</title><line x1="1582.5" x2="1582.5" y1="364" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="364" r="3.1"/><circle cx="1582.5" cy="394" r="3.1"/></g>
+<g><title>Wires 19 and 21</title><line x1="1593.5" x2="1593.5" y1="379" y2="409" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="379" r="3.1"/><circle cx="1593.5" cy="409" r="3.1"/></g>
+<g><title>Wires 22 and 24</title><line x1="1582.5" x2="1582.5" y1="424" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="424" r="3.1"/><circle cx="1582.5" cy="454" r="3.1"/></g>
+<g><title>Wires 23 and 25</title><line x1="1593.5" x2="1593.5" y1="439" y2="469" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="439" r="3.1"/><circle cx="1593.5" cy="469" r="3.1"/></g>
+<g><title>Wires 26 and 28</title><line x1="1582.5" x2="1582.5" y1="484" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="484" r="3.1"/><circle cx="1582.5" cy="514" r="3.1"/></g>
+<g><title>Wires 27 and 29</title><line x1="1593.5" x2="1593.5" y1="499" y2="529" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="499" r="3.1"/><circle cx="1593.5" cy="529" r="3.1"/></g>
+<g><title>Wires 30 and 32</title><line x1="1582.5" x2="1582.5" y1="544" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="544" r="3.1"/><circle cx="1582.5" cy="574" r="3.1"/></g>
+<g><title>Wires 31 and 33</title><line x1="1593.5" x2="1593.5" y1="559" y2="589" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="559" r="3.1"/><circle cx="1593.5" cy="589" r="3.1"/></g>
+<g><title>Wires 34 and 36</title><line x1="1582.5" x2="1582.5" y1="604" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="604" r="3.1"/><circle cx="1582.5" cy="634" r="3.1"/></g>
+<g><title>Wires 35 and 37</title><line x1="1593.5" x2="1593.5" y1="619" y2="649" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="619" r="3.1"/><circle cx="1593.5" cy="649" r="3.1"/></g>
+<g><title>Wires 38 and 40</title><line x1="1582.5" x2="1582.5" y1="664" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="664" r="3.1"/><circle cx="1582.5" cy="694" r="3.1"/></g>
+<g><title>Wires 39 and 41</title><line x1="1593.5" x2="1593.5" y1="679" y2="709" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="679" r="3.1"/><circle cx="1593.5" cy="709" r="3.1"/></g>
+<g><title>Wires 42 and 44</title><line x1="1582.5" x2="1582.5" y1="724" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="724" r="3.1"/><circle cx="1582.5" cy="754" r="3.1"/></g>
+<g><title>Wires 43 and 45</title><line x1="1593.5" x2="1593.5" y1="739" y2="769" stroke="#19536b" stroke-width="1.6"/><circle cx="1593.5" cy="739" r="3.1"/><circle cx="1593.5" cy="769" r="3.1"/></g>
+<g><title>Wires 46 and 48</title><line x1="1582.5" x2="1582.5" y1="784" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="1582.5" cy="784" r="3.1"/><circle cx="1582.5" cy="814" r="3.1"/></g>
+</g>
+<g id="layer-19" fill="#11394c"><title>Layer 19</title>
+<g><title>Wires 3 and 4</title><line x1="1623" x2="1623" y1="139" y2="154" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="139" r="3.1"/><circle cx="1623" cy="154" r="3.1"/></g>
+<g><title>Wires 5 and 6</title><line x1="1623" x2="1623" y1="169" y2="184" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="169" r="3.1"/><circle cx="1623" cy="184" r="3.1"/></g>
+<g><title>Wires 7 and 8</title><line x1="1623" x2="1623" y1="199" y2="214" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="199" r="3.1"/><circle cx="1623" cy="214" r="3.1"/></g>
+<g><title>Wires 9 and 10</title><line x1="1623" x2="1623" y1="229" y2="244" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="229" r="3.1"/><circle cx="1623" cy="244" r="3.1"/></g>
+<g><title>Wires 11 and 12</title><line x1="1623" x2="1623" y1="259" y2="274" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="259" r="3.1"/><circle cx="1623" cy="274" r="3.1"/></g>
+<g><title>Wires 13 and 14</title><line x1="1623" x2="1623" y1="289" y2="304" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="289" r="3.1"/><circle cx="1623" cy="304" r="3.1"/></g>
+<g><title>Wires 15 and 16</title><line x1="1623" x2="1623" y1="319" y2="334" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="319" r="3.1"/><circle cx="1623" cy="334" r="3.1"/></g>
+<g><title>Wires 17 and 18</title><line x1="1623" x2="1623" y1="349" y2="364" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="349" r="3.1"/><circle cx="1623" cy="364" r="3.1"/></g>
+<g><title>Wires 19 and 20</title><line x1="1623" x2="1623" y1="379" y2="394" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="379" r="3.1"/><circle cx="1623" cy="394" r="3.1"/></g>
+<g><title>Wires 21 and 22</title><line x1="1623" x2="1623" y1="409" y2="424" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="409" r="3.1"/><circle cx="1623" cy="424" r="3.1"/></g>
+<g><title>Wires 23 and 24</title><line x1="1623" x2="1623" y1="439" y2="454" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="439" r="3.1"/><circle cx="1623" cy="454" r="3.1"/></g>
+<g><title>Wires 25 and 26</title><line x1="1623" x2="1623" y1="469" y2="484" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="469" r="3.1"/><circle cx="1623" cy="484" r="3.1"/></g>
+<g><title>Wires 27 and 28</title><line x1="1623" x2="1623" y1="499" y2="514" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="499" r="3.1"/><circle cx="1623" cy="514" r="3.1"/></g>
+<g><title>Wires 29 and 30</title><line x1="1623" x2="1623" y1="529" y2="544" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="529" r="3.1"/><circle cx="1623" cy="544" r="3.1"/></g>
+<g><title>Wires 31 and 32</title><line x1="1623" x2="1623" y1="559" y2="574" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="559" r="3.1"/><circle cx="1623" cy="574" r="3.1"/></g>
+<g><title>Wires 33 and 34</title><line x1="1623" x2="1623" y1="589" y2="604" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="589" r="3.1"/><circle cx="1623" cy="604" r="3.1"/></g>
+<g><title>Wires 35 and 36</title><line x1="1623" x2="1623" y1="619" y2="634" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="619" r="3.1"/><circle cx="1623" cy="634" r="3.1"/></g>
+<g><title>Wires 37 and 38</title><line x1="1623" x2="1623" y1="649" y2="664" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="649" r="3.1"/><circle cx="1623" cy="664" r="3.1"/></g>
+<g><title>Wires 39 and 40</title><line x1="1623" x2="1623" y1="679" y2="694" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="679" r="3.1"/><circle cx="1623" cy="694" r="3.1"/></g>
+<g><title>Wires 41 and 42</title><line x1="1623" x2="1623" y1="709" y2="724" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="709" r="3.1"/><circle cx="1623" cy="724" r="3.1"/></g>
+<g><title>Wires 43 and 44</title><line x1="1623" x2="1623" y1="739" y2="754" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="739" r="3.1"/><circle cx="1623" cy="754" r="3.1"/></g>
+<g><title>Wires 45 and 46</title><line x1="1623" x2="1623" y1="769" y2="784" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="769" r="3.1"/><circle cx="1623" cy="784" r="3.1"/></g>
+<g><title>Wires 47 and 48</title><line x1="1623" x2="1623" y1="799" y2="814" stroke="#19536b" stroke-width="1.6"/><circle cx="1623" cy="799" r="3.1"/><circle cx="1623" cy="814" r="3.1"/></g>
+</g>
+</g>
+</svg>
